@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "LrCe9IClta49xbTwPwAHNfp8nhOr+v2wsjB3TY2odFOrJgCrUK/srJV4GY3NH91SJoMZrCxBzc7/mcHWJzlcqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jingweizh\\Desktop\\DrumPad\\DrumPad\\DrumPad\\DrumPad.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
+    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.windowsappsdk\\1.0.0\\microsoft.windowsappsdk.1.0.0.nupkg.sha512",
+    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.12\\microsoft.netcore.app.runtime.win-x64.5.0.12.nupkg.sha512",
+    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.12\\microsoft.aspnetcore.app.runtime.win-x64.5.0.12.nupkg.sha512",
+    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\5.0.12\\microsoft.netcore.app.runtime.win-arm64.5.0.12.nupkg.sha512",
+    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.12\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.12.nupkg.sha512",
+    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.21\\microsoft.windows.sdk.net.ref.10.0.19041.21.nupkg.sha512",
+    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\5.0.12\\microsoft.aspnetcore.app.runtime.win-arm64.5.0.12.nupkg.sha512",
+    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\5.0.12\\microsoft.netcore.app.runtime.win-x86.5.0.12.nupkg.sha512",
+    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\5.0.12\\microsoft.windowsdesktop.app.runtime.win-arm64.5.0.12.nupkg.sha512",
+    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\5.0.12\\microsoft.aspnetcore.app.runtime.win-x86.5.0.12.nupkg.sha512",
+    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\5.0.12\\microsoft.windowsdesktop.app.runtime.win-x86.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
