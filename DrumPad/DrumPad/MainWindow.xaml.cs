@@ -50,6 +50,121 @@ namespace DrumPad
             player.Play();
         }
 
+
+        private void pad2_clicked(object sender, RoutedEventArgs e)
+        {
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            var soundFile = Path.Join(installedPath, "Assets", "crash.wav");
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
+            player.Play();
+        }
+
+        private void pad3_clicked(object sender, RoutedEventArgs e)
+        {
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            var soundFile = Path.Join(installedPath, "Assets", "elec1.wav");
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
+            player.Play();
+        }
+
+        private void pad4_clicked(object sender, RoutedEventArgs e)
+        {
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            var soundFile = Path.Join(installedPath, "Assets", "high_snare.wav");
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
+            player.Play();
+        }
+
+        private void pad5_clicked(object sender, RoutedEventArgs e)
+        {
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            var soundFile = Path.Join(installedPath, "Assets", "high_snare2.wav");
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
+            player.Play();
+        }
+
+        private void pad6_clicked(object sender, RoutedEventArgs e)
+        {
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            var soundFile = Path.Join(installedPath, "Assets", "kick.wav");
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
+            player.Play();
+        }
+
+        private void pad7_clicked(object sender, RoutedEventArgs e)
+        {
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            var soundFile = Path.Join(installedPath, "Assets", "snare.wav");
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
+            player.Play();
+        }
+
+        private void pad8_clicked(object sender, RoutedEventArgs e)
+        {
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            var soundFile = Path.Join(installedPath, "Assets", "tom.wav");
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
+            player.Play();
+        }
+
+        private void pad9_clicked(object sender, RoutedEventArgs e)
+        {
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            var soundFile = Path.Join(installedPath, "Assets", "trash.wav");
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
+            player.Play();
+        }
+
+        private void pad10_clicked(object sender, RoutedEventArgs e)
+        {
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            var soundFile = Path.Join(installedPath, "Assets", "clip1.wav");
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
+            player.Play();
+        }
+        private void pad11_clicked(object sender, RoutedEventArgs e)
+        {
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            var soundFile = Path.Join(installedPath, "Assets", "clip2.wav");
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
+            player.Play();
+        }
+        private void pad12_clicked(object sender, RoutedEventArgs e)
+        {
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            var soundFile = Path.Join(installedPath, "Assets", "clip3.wav");
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
+            player.Play();
+        }
+        private void pad13_clicked(object sender, RoutedEventArgs e)
+        {
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            var soundFile = Path.Join(installedPath, "Assets", "clip4.wav");
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
+            player.Play();
+        }
+        private void pad14_clicked(object sender, RoutedEventArgs e)
+        {
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            var soundFile = Path.Join(installedPath, "Assets", "clip5.wav");
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
+            player.Play();
+        }
+        private void pad15_clicked(object sender, RoutedEventArgs e)
+        {
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            var soundFile = Path.Join(installedPath, "Assets", "clip6.wav");
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
+            player.Play();
+        }
+        private void pad16_clicked(object sender, RoutedEventArgs e)
+        {
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            var soundFile = Path.Join(installedPath, "Assets", "clip7.wav");
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
+            player.Play();
+        }
+
         private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
         {
             ToggleSwitch toggleSwitch = sender as ToggleSwitch;

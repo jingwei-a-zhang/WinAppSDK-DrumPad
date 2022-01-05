@@ -22,13 +22,13 @@
                 <DropDownButton.Flyout>
                     <MenuFlyout Placement="Bottom">
                         <MenuFlyoutItem Text="Default"/>
-                        <MenuFlyoutItem x:ConnectionId='5' Text="Compact Overlay"                                    />
+                        <MenuFlyoutItem x:ConnectionId='20' Text="Compact Overlay"                                    />
                         <MenuFlyoutItem Text="Fullscreen"/>
                     </MenuFlyout>
                 </DropDownButton.Flyout>
             </DropDownButton>
 
-            <ToggleSwitch x:ConnectionId='4' AutomationProperties.Name="simple ToggleSwitch" x:Name="dark_switch" Grid.Column="1" CornerRadius="3" VerticalAlignment="Center"  HorizontalAlignment="Right" MinWidth="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"                               />
+            <ToggleSwitch x:ConnectionId='19' AutomationProperties.Name="simple ToggleSwitch" x:Name="dark_switch" Grid.Column="1" CornerRadius="3" VerticalAlignment="Center"  HorizontalAlignment="Right" MinWidth="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"                               />
         </Grid>
 
         <Grid x:ConnectionId='2' x:Name="Control1" Grid.Row="1" ColumnSpacing="30" RowSpacing="12"
@@ -58,24 +58,24 @@
             </Grid.Resources>
 
             <Button x:ConnectionId='3' Background="#FF0000" Grid.Row="0" Grid.Column="0" Content="Kick 1"                    />
-            <Button Background="#C4425A" Grid.Row="0" Grid.Column="1" Content="Kick 2"/>
-            <Button Background="#D41DD8" Grid.Row="0" Grid.Column="2" Content="Kick 3"/>
-            <Button Background="#6A21A3" Grid.Row="0" Grid.Column="3" Content="Kick 4"/>
+            <Button x:ConnectionId='4' Background="#C4425A" Grid.Row="0" Grid.Column="1" Content="Kick 2"                     />
+            <Button x:ConnectionId='5' Background="#D41DD8" Grid.Row="0" Grid.Column="2" Content="Kick 3"                     />
+            <Button x:ConnectionId='6' Background="#6A21A3" Grid.Row="0" Grid.Column="3" Content="Kick 4"                     />
 
-            <Button Background="#C4425A" Grid.Row="1" Grid.Column="0" Content="Clap 1"/>
-            <Button Background="#D41DD8" Grid.Row="1" Grid.Column="1" Content="Clap 2"/>
-            <Button Background="#6A21A3" Grid.Row="1" Grid.Column="2" Content="Clap 3"/>
-            <Button Background="#473DB8" Grid.Row="1" Grid.Column="3" Content="Clap 4"/>
+            <Button x:ConnectionId='7' Background="#C4425A" Grid.Row="1" Grid.Column="0" Content="Clap 1"                     />
+            <Button x:ConnectionId='8' Background="#D41DD8" Grid.Row="1" Grid.Column="1" Content="Clap 2"                     />
+            <Button x:ConnectionId='9' Background="#6A21A3" Grid.Row="1" Grid.Column="2" Content="Clap 3"                     />
+            <Button x:ConnectionId='10' Background="#473DB8" Grid.Row="1" Grid.Column="3" Content="Clap 4"                     />
 
-            <Button Background="#D41DD8" Grid.Row="2" Grid.Column="0" Content="Open Hat 1"/>
-            <Button Background="#6A21A3" Grid.Row="2" Grid.Column="1" Content="Open Hat 2"/>
-            <Button Background="#473DB8" Grid.Row="2" Grid.Column="2" Content="Open Hat 3"/>
-            <Button Background="#26AAC7" Grid.Row="2" Grid.Column="3" Content="Open Hat 4"/>
+            <Button x:ConnectionId='11' Background="#D41DD8" Grid.Row="2" Grid.Column="0" Content="Open Hat 1"                     />
+            <Button x:ConnectionId='12' Background="#6A21A3" Grid.Row="2" Grid.Column="1" Content="Open Hat 2"                      />
+            <Button x:ConnectionId='13' Background="#473DB8" Grid.Row="2" Grid.Column="2" Content="Open Hat 3"                      />
+            <Button x:ConnectionId='14' Background="#26AAC7" Grid.Row="2" Grid.Column="3" Content="Open Hat 4"                      />
 
-            <Button Background="#6A21A3" Grid.Row="3" Grid.Column="0" Content="Snare 1"/>
-            <Button Background="#473DB8" Grid.Row="3" Grid.Column="1" Content="Snare 2"/>
-            <Button Background="#26AAC7" Grid.Row="3" Grid.Column="2" Content="Snare 3"/>
-            <Button Background="#1A7BD6" Grid.Row="3" Grid.Column="3" Content="Snare 4"/>
+            <Button x:ConnectionId='15' Background="#6A21A3" Grid.Row="3" Grid.Column="0" Content="Snare 1"                      />
+            <Button x:ConnectionId='16' Background="#473DB8" Grid.Row="3" Grid.Column="1" Content="Snare 2"                      />
+            <Button x:ConnectionId='17' Background="#26AAC7" Grid.Row="3" Grid.Column="2" Content="Snare 3"                      />
+            <Button x:ConnectionId='18' Background="#1A7BD6" Grid.Row="3" Grid.Column="3" Content="Snare 4"                      />
         </Grid>
     </Grid>
 

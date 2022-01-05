@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-05T02:17:23.116</Modified>
+      <Modified>2022-01-05T02:31:00.588</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-01-05T02:12:20.637</Modified>
+      <Modified>2022-01-05T02:31:00.339</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\DrumPad.runtimeconfig.json">
       <PackagePath>DrumPad.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\DrumPad.dll">
       <PackagePath>DrumPad.dll</PackagePath>
-      <Modified>2022-01-05T02:17:22.766</Modified>
+      <Modified>2022-01-05T02:31:00.160</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\obj\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DrumPad.exe</PackagePath>
-      <Modified>2022-01-05T02:17:22.777</Modified>
+      <Modified>2022-01-05T02:31:00.180</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\DrumPad.deps.json">
       <PackagePath>DrumPad.deps.json</PackagePath>
@@ -988,6 +988,34 @@
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\DrumPad.runtimeconfig.dev.json">
       <PackagePath>DrumPad.runtimeconfig.dev.json</PackagePath>
       <Modified>2022-01-05T01:48:50.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\clip1.wav">
+      <PackagePath>Assets\clip1.wav</PackagePath>
+      <Modified>2021-12-06T07:47:39.133</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\clip2.wav">
+      <PackagePath>Assets\clip2.wav</PackagePath>
+      <Modified>2021-12-06T07:47:39.169</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\clip3.wav">
+      <PackagePath>Assets\clip3.wav</PackagePath>
+      <Modified>2021-12-06T07:47:39.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\clip4.wav">
+      <PackagePath>Assets\clip4.wav</PackagePath>
+      <Modified>2021-12-06T07:47:39.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\clip5.wav">
+      <PackagePath>Assets\clip5.wav</PackagePath>
+      <Modified>2021-12-06T07:47:39.487</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\clip6.wav">
+      <PackagePath>Assets\clip6.wav</PackagePath>
+      <Modified>2021-12-06T07:47:39.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\clip7.wav">
+      <PackagePath>Assets\clip7.wav</PackagePath>
+      <Modified>2021-12-06T07:47:39.560</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\crash.wav">
       <PackagePath>Assets\crash.wav</PackagePath>

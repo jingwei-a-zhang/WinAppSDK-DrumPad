@@ -742,6 +742,27 @@
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\DrumPad.runtimeconfig.dev.json">
       <PackagePath>DrumPad.runtimeconfig.dev.json</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\clip1.wav">
+      <PackagePath>Assets\clip1.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\clip2.wav">
+      <PackagePath>Assets\clip2.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\clip3.wav">
+      <PackagePath>Assets\clip3.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\clip4.wav">
+      <PackagePath>Assets\clip4.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\clip5.wav">
+      <PackagePath>Assets\clip5.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\clip6.wav">
+      <PackagePath>Assets\clip6.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\clip7.wav">
+      <PackagePath>Assets\clip7.wav</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\crash.wav">
       <PackagePath>Assets\crash.wav</PackagePath>
     </AppxPackagedFile>
