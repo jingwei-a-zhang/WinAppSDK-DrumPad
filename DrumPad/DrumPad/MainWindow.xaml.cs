@@ -20,6 +20,7 @@ using Microsoft.UI;
 using Microsoft.UI.Windowing;
 // Needed for XAML hwnd interop
 using WinRT.Interop;
+using Windows.Storage;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -184,6 +185,20 @@ namespace DrumPad
                         frameworkElement.RequestedTheme = ElementTheme.Light;
                     }
                 }
+            }
+
+            ApplicationData.Current.LocalSettings.Values["themeSetting"] = ((ToggleSwitch)sender).IsOn ? 0 : 1;
+        }
+
+        private void ToggleSwitch_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (ApplicationData.Current.LocalSettings.Values.TryGetValue("themeSetting", out object themeSetting) && (int)themeSetting == 0)
+            {
+                dark_switch.IsOn = true;
+            }
+            else
+            {
+                dark_switch.IsOn = false;
             }
         }
 

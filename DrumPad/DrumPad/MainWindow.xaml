@@ -28,7 +28,7 @@
                 </DropDownButton.Flyout>
             </DropDownButton>
 
-            <ToggleSwitch AutomationProperties.Name="simple ToggleSwitch" x:Name="dark_switch" Grid.Column="1" CornerRadius="3" VerticalAlignment="Center"  HorizontalAlignment="Right" MinWidth="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Toggled="ToggleSwitch_Toggled"/>
+            <ToggleSwitch AutomationProperties.Name="simple ToggleSwitch" x:Name="dark_switch" Grid.Column="1" CornerRadius="3" VerticalAlignment="Center"  HorizontalAlignment="Right" MinWidth="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Toggled="ToggleSwitch_Toggled" Loaded="ToggleSwitch_Loaded"/>
         </Grid>
 
         <Grid x:Name="Control1" Grid.Row="1" ColumnSpacing="30" RowSpacing="12"
