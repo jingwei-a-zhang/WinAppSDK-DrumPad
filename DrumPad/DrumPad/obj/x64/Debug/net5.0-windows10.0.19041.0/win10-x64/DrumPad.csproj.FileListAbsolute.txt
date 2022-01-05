@@ -274,3 +274,7 @@ C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\obj\x64\Debug\net5.0-windows1
 C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\obj\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\obj\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\obj\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\obj\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\DrumPad.csproj.AssemblyReference.cache
+C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\Microsoft.Win32.SystemEvents.dll
+C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\System.Drawing.Common.dll
+C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\System.Windows.Extensions.dll

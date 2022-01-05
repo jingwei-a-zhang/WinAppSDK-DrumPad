@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid>
+    <Grid Background="{ThemeResource HomePageBackgroundBrush}">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -21,14 +21,14 @@
             <DropDownButton Content="Display" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Width="118" >
                 <DropDownButton.Flyout>
                     <MenuFlyout Placement="Bottom">
-                        <MenuFlyoutItem Text="Default"/>
-                        <MenuFlyoutItem Text="Compact Overlay"/>
-                        <MenuFlyoutItem Text="Fullscreen"/>
+                        <MenuFlyoutItem Text="Default" Click="SwtichPresenter_OverLapped"/>
+                        <MenuFlyoutItem Text="Compact Overlay" Click="SwtichPresenter_CompOverlay"/>
+                        <MenuFlyoutItem Text="Fullscreen" Click="SwtichPresenter_Fullscreen"/>
                     </MenuFlyout>
                 </DropDownButton.Flyout>
             </DropDownButton>
 
-            <ToggleSwitch AutomationProperties.Name="simple ToggleSwitch" x:Name="dark_switch" Grid.Column="1" CornerRadius="3" VerticalAlignment="Center"  HorizontalAlignment="Right" MinWidth="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+            <ToggleSwitch AutomationProperties.Name="simple ToggleSwitch" x:Name="dark_switch" Grid.Column="1" CornerRadius="3" VerticalAlignment="Center"  HorizontalAlignment="Right" MinWidth="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Toggled="ToggleSwitch_Toggled" Loaded="ToggleSwitch_Loaded"/>
         </Grid>
 
         <Grid x:Name="Control1" Grid.Row="1" ColumnSpacing="30" RowSpacing="12"
@@ -57,25 +57,25 @@
                 </Style>
             </Grid.Resources>
 
-            <Button Background="#FF0000" Grid.Row="0" Grid.Column="0" Content="Kick 1"/>
-            <Button Background="#C4425A" Grid.Row="0" Grid.Column="1" Content="Kick 2"/>
-            <Button Background="#D41DD8" Grid.Row="0" Grid.Column="2" Content="Kick 3"/>
-            <Button Background="#6A21A3" Grid.Row="0" Grid.Column="3" Content="Kick 4"/>
+            <Button Background="#FF0000" Grid.Row="0" Grid.Column="0" Content="Kick 1" Click="pad_clicked"/>
+            <Button Background="#C4425A" Grid.Row="0" Grid.Column="1" Content="Kick 2" Click="pad2_clicked"/>
+            <Button Background="#D41DD8" Grid.Row="0" Grid.Column="2" Content="Kick 3" Click="pad3_clicked"/>
+            <Button Background="#6A21A3" Grid.Row="0" Grid.Column="3" Content="Kick 4" Click="pad4_clicked"/>
 
-            <Button Background="#C4425A" Grid.Row="1" Grid.Column="0" Content="Clap 1"/>
-            <Button Background="#D41DD8" Grid.Row="1" Grid.Column="1" Content="Clap 2"/>
-            <Button Background="#6A21A3" Grid.Row="1" Grid.Column="2" Content="Clap 3"/>
-            <Button Background="#473DB8" Grid.Row="1" Grid.Column="3" Content="Clap 4"/>
+            <Button Background="#C4425A" Grid.Row="1" Grid.Column="0" Content="Clap 1" Click="pad5_clicked"/>
+            <Button Background="#D41DD8" Grid.Row="1" Grid.Column="1" Content="Clap 2" Click="pad6_clicked"/>
+            <Button Background="#6A21A3" Grid.Row="1" Grid.Column="2" Content="Clap 3" Click="pad7_clicked"/>
+            <Button Background="#473DB8" Grid.Row="1" Grid.Column="3" Content="Clap 4" Click="pad8_clicked"/>
 
-            <Button Background="#D41DD8" Grid.Row="2" Grid.Column="0" Content="Open Hat 1"/>
-            <Button Background="#6A21A3" Grid.Row="2" Grid.Column="1" Content="Open Hat 2"/>
-            <Button Background="#473DB8" Grid.Row="2" Grid.Column="2" Content="Open Hat 3"/>
-            <Button Background="#26AAC7" Grid.Row="2" Grid.Column="3" Content="Open Hat 4"/>
+            <Button Background="#D41DD8" Grid.Row="2" Grid.Column="0" Content="Open Hat 1" Click="pad9_clicked"/>
+            <Button Background="#6A21A3" Grid.Row="2" Grid.Column="1" Content="Open Hat 2" Click="pad10_clicked"/>
+            <Button Background="#473DB8" Grid.Row="2" Grid.Column="2" Content="Open Hat 3" Click="pad11_clicked"/>
+            <Button Background="#26AAC7" Grid.Row="2" Grid.Column="3" Content="Open Hat 4" Click="pad12_clicked"/>
 
-            <Button Background="#6A21A3" Grid.Row="3" Grid.Column="0" Content="Snare 1"/>
-            <Button Background="#473DB8" Grid.Row="3" Grid.Column="1" Content="Snare 2"/>
-            <Button Background="#26AAC7" Grid.Row="3" Grid.Column="2" Content="Snare 3"/>
-            <Button Background="#1A7BD6" Grid.Row="3" Grid.Column="3" Content="Snare 4"/>
+            <Button Background="#6A21A3" Grid.Row="3" Grid.Column="0" Content="Snare 1" Click="pad13_clicked"/>
+            <Button Background="#473DB8" Grid.Row="3" Grid.Column="1" Content="Snare 2" Click="pad14_clicked"/>
+            <Button Background="#26AAC7" Grid.Row="3" Grid.Column="2" Content="Snare 3" Click="pad15_clicked"/>
+            <Button Background="#1A7BD6" Grid.Row="3" Grid.Column="3" Content="Snare 4" Click="pad16_clicked"/>
         </Grid>
     </Grid>
 

@@ -11,6 +11,7 @@
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22000.194",
           "Microsoft.WindowsAppSDK": "1.0.0",
+          "System.Windows.Extensions": "6.0.0",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "5.0.12",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.21"
         },
@@ -857,6 +858,14 @@
           }
         }
       },
+      "Microsoft.Win32.SystemEvents/6.0.0": {
+        "runtime": {
+          "runtimes/win/lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {},
       "Microsoft.WindowsAppSDK/1.0.0": {
         "dependencies": {
@@ -901,6 +910,28 @@
             "fileVersion": "0.0.0.0"
           }
         }
+      },
+      "System.Drawing.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0"
+        },
+        "runtime": {
+          "runtimes/win/lib/netcoreapp3.1/System.Drawing.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Windows.Extensions/6.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0"
+        },
+        "runtime": {
+          "runtimes/win/lib/netcoreapp3.1/System.Windows.Extensions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
       }
     }
   },
@@ -920,6 +951,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.Win32.SystemEvents/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
+      "path": "microsoft.win32.systemevents/6.0.0",
+      "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
     "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
       "type": "package",
       "serviceable": true,
@@ -933,6 +971,20 @@
       "sha512": "sha512-nQRK4KuaRDWk9YX78k4Vn1D9w2Z07ki1mTmuT+4oCIEJNM01c40A7DUC6GiBdTjmHJbBq4hm7EyFQUb+kBSW8A==",
       "path": "microsoft.windowsappsdk/1.0.0",
       "hashPath": "microsoft.windowsappsdk.1.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
+      "path": "system.drawing.common/6.0.0",
+      "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
+    },
+    "System.Windows.Extensions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
+      "path": "system.windows.extensions/6.0.0",
+      "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     }
   },
   "runtimes": {
