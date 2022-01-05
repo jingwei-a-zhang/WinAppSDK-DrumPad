@@ -21,9 +21,9 @@
             <DropDownButton Content="Display" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Width="118" >
                 <DropDownButton.Flyout>
                     <MenuFlyout Placement="Bottom">
-                        <MenuFlyoutItem Text="Default"/>
-                        <MenuFlyoutItem x:ConnectionId='20' Text="Compact Overlay"                                    />
-                        <MenuFlyoutItem Text="Fullscreen"/>
+                        <MenuFlyoutItem x:ConnectionId='20' Text="Default"                                   />
+                        <MenuFlyoutItem x:ConnectionId='21' Text="Compact Overlay"                                    />
+                        <MenuFlyoutItem x:ConnectionId='22' Text="Fullscreen"                                   />
                     </MenuFlyout>
                 </DropDownButton.Flyout>
             </DropDownButton>
