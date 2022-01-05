@@ -12,6 +12,14 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using System.Media;
+using WinRT;
+// Needed for WindowId
+using Microsoft.UI;
+// Needed for AppWindow
+using Microsoft.UI.Windowing;
+// Needed for XAML hwnd interop
+using WinRT.Interop;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -23,9 +31,57 @@ namespace DrumPad
     /// </summary>
     public sealed partial class MainWindow : Window
     {
+        AppWindow m_appWindow;
+
         public MainWindow()
         {
             this.InitializeComponent();
+            m_appWindow = GetAppWindowForCurrentWindow();
+        }
+
+        private void pad_clicked(object sender, RoutedEventArgs e)
+        {
+            // get the full path to your app’s folder where it is installed
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            // join path above with the sub-paths in your Assets folder and the specific sound file
+            var soundFile = Path.Join(installedPath, "Assets", "rim.wav");
+
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
+            player.Play();
+        }
+
+        private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
+        {
+            ToggleSwitch toggleSwitch = sender as ToggleSwitch;
+            if (toggleSwitch != null)
+            {
+                if (toggleSwitch.IsOn == true)
+                {
+                    if (this.Content is FrameworkElement frameworkElement)
+                    {
+                        frameworkElement.RequestedTheme = ElementTheme.Dark;
+                    }
+                }
+                else
+                {
+                    if (this.Content is FrameworkElement frameworkElement)
+                    {
+                        frameworkElement.RequestedTheme = ElementTheme.Light;
+                    }
+                }
+            }
+        }
+
+        private AppWindow GetAppWindowForCurrentWindow()
+        {
+            IntPtr hWnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
+            WindowId myWndId = Microsoft.UI.Win32Interop.GetWindowIdFromWindow(hWnd);
+            return AppWindow.GetFromWindowId(myWndId);
+        }
+
+        private void SwtichPresenter_CompOverlay(object sender, RoutedEventArgs e)
+        {
+            m_appWindow.SetPresenter(AppWindowPresenterKind.CompactOverlay);
         }
     }
 }

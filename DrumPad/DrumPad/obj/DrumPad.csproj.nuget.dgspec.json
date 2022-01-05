@@ -51,6 +51,10 @@
             "Microsoft.WindowsAppSDK": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "System.Windows.Extensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [

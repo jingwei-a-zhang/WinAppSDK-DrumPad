@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-03T05:52:37.375</Modified>
+      <Modified>2022-01-05T02:17:23.116</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-01-03T05:52:37.057</Modified>
+      <Modified>2022-01-05T02:12:20.637</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\DrumPad.runtimeconfig.json">
       <PackagePath>DrumPad.runtimeconfig.json</PackagePath>
-      <Modified>2022-01-03T05:52:36.893</Modified>
+      <Modified>2022-01-05T01:48:50.747</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\DrumPad.dll">
       <PackagePath>DrumPad.dll</PackagePath>
-      <Modified>2022-01-03T05:52:36.480</Modified>
+      <Modified>2022-01-05T02:17:22.766</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\obj\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DrumPad.exe</PackagePath>
-      <Modified>2022-01-03T05:52:36.500</Modified>
+      <Modified>2022-01-05T02:17:22.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\DrumPad.deps.json">
       <PackagePath>DrumPad.deps.json</PackagePath>
-      <Modified>2022-01-03T05:52:36.889</Modified>
+      <Modified>2022-01-05T01:48:50.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\.nuget\packages\microsoft.netcore.app.runtime.win-x64\5.0.12\runtimes\win-x64\lib\net5.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -937,6 +937,10 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2021-09-16T03:42:10.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\.nuget\packages\microsoft.win32.systemevents\6.0.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll">
+      <PackagePath>Microsoft.Win32.SystemEvents.dll</PackagePath>
+      <Modified>2021-10-22T23:48:14.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
       <Modified>2021-11-16T04:57:36.000</Modified>
@@ -969,41 +973,85 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2021-11-16T05:08:40.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\.nuget\packages\system.drawing.common\6.0.0\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+      <Modified>2021-10-22T23:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\.nuget\packages\system.windows.extensions\6.0.0\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll">
+      <PackagePath>System.Windows.Extensions.dll</PackagePath>
+      <Modified>2021-10-22T23:50:32.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\.nuget\packages\microsoft.windowsappsdk\1.0.0\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2021-11-16T04:57:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\DrumPad.runtimeconfig.dev.json">
       <PackagePath>DrumPad.runtimeconfig.dev.json</PackagePath>
-      <Modified>2022-01-03T05:52:36.894</Modified>
+      <Modified>2022-01-05T01:48:50.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\crash.wav">
+      <PackagePath>Assets\crash.wav</PackagePath>
+      <Modified>2021-12-06T07:47:43.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\elec1.wav">
+      <PackagePath>Assets\elec1.wav</PackagePath>
+      <Modified>2021-11-29T08:24:44.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\high_snare.wav">
+      <PackagePath>Assets\high_snare.wav</PackagePath>
+      <Modified>2021-12-06T07:47:32.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\high_snare2.wav">
+      <PackagePath>Assets\high_snare2.wav</PackagePath>
+      <Modified>2021-12-06T07:47:32.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\kick.wav">
+      <PackagePath>Assets\kick.wav</PackagePath>
+      <Modified>2021-12-06T07:47:29.232</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-11-22T01:40:02.691</Modified>
+      <Modified>2022-01-03T05:59:15.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\rim.wav">
+      <PackagePath>Assets\rim.wav</PackagePath>
+      <Modified>2021-12-06T07:47:35.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\snare.wav">
+      <PackagePath>Assets\snare.wav</PackagePath>
+      <Modified>2021-12-06T07:47:29.482</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <Modified>2021-11-22T01:40:02.691</Modified>
+      <Modified>2022-01-03T05:59:15.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2021-11-22T01:40:02.699</Modified>
+      <Modified>2022-01-03T05:59:15.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2021-11-22T01:40:02.699</Modified>
+      <Modified>2022-01-03T05:59:15.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2021-11-22T01:40:02.699</Modified>
+      <Modified>2022-01-03T05:59:15.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <Modified>2021-11-22T01:40:02.699</Modified>
+      <Modified>2022-01-03T05:59:15.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\tom.wav">
+      <PackagePath>Assets\tom.wav</PackagePath>
+      <Modified>2021-12-06T07:47:36.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\trash.wav">
+      <PackagePath>Assets\trash.wav</PackagePath>
+      <Modified>2021-12-06T07:47:30.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2021-11-22T01:40:02.708</Modified>
+      <Modified>2022-01-03T05:59:15.022</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
