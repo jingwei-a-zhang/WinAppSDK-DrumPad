@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "44qQ4T50TaaWOhPdgzidAi+wk/z/v+vT1oibGDWQzUOuLpWtYqA8Cr8OrfQ1kxHZDlvsUjVToLzqNXhFLGoQjQ==",
+  "dgSpecHash": "GDCXOP9YeTodC+cymyHA1t/dhCX0iAsiRyK61CP96RgPPD/38vS4H7SZs52Yn74wwTWxTH8pyhpy6Pwh12ffuA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jingweizh\\Desktop\\WinAppSDK-DrumPad\\DrumPad\\DrumPad\\DrumPad.csproj",
   "expectedPackageFiles": [
@@ -9,12 +9,8 @@
     "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.windowsappsdk\\1.0.0\\microsoft.windowsappsdk.1.0.0.nupkg.sha512",
     "C:\\Users\\Jingweizh\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
     "C:\\Users\\Jingweizh\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512",
     "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.14\\microsoft.netcore.app.runtime.win-x64.5.0.14.nupkg.sha512",
-    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.netcore.app.host.win-arm64\\5.0.14\\microsoft.netcore.app.host.win-arm64.5.0.14.nupkg.sha512",
     "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.14\\microsoft.aspnetcore.app.runtime.win-x64.5.0.14.nupkg.sha512",
-    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
     "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\5.0.14\\microsoft.netcore.app.runtime.win-arm64.5.0.14.nupkg.sha512",
     "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.14\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.14.nupkg.sha512",
     "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.22\\microsoft.windows.sdk.net.ref.10.0.19041.22.nupkg.sha512",
@@ -22,9 +18,7 @@
     "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\5.0.14\\microsoft.netcore.app.runtime.win-x86.5.0.14.nupkg.sha512",
     "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\5.0.14\\microsoft.windowsdesktop.app.runtime.win-arm64.5.0.14.nupkg.sha512",
     "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\5.0.14\\microsoft.aspnetcore.app.runtime.win-x86.5.0.14.nupkg.sha512",
-    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\5.0.14\\microsoft.windowsdesktop.app.runtime.win-x86.5.0.14.nupkg.sha512",
-    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\5.0.14\\microsoft.netcore.app.host.win-x86.5.0.14.nupkg.sha512"
+    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\5.0.14\\microsoft.windowsdesktop.app.runtime.win-x86.5.0.14.nupkg.sha512"
   ],
   "logs": []
 }

@@ -9,16 +9,17 @@ using Microsoft.UI.Dispatching;
 using Microsoft.Windows.AppLifecycle;
 using Windows.ApplicationModel.Activation;
 using Windows.Storage;
+using System.Runtime.InteropServices;
 
 namespace DrumPad
 {
     class Program
     {
         [STAThread]
-        static async Task<int> Main(string[] args)
+        static void Main(string[] args)
         {
             WinRT.ComWrappersSupport.InitializeComWrappers();
-            bool isRedirect = await DecideRedirection();
+            bool isRedirect = DecideRedirection();
             if (!isRedirect)
             {
                 Microsoft.UI.Xaml.Application.Start((p) =>
@@ -29,11 +30,9 @@ namespace DrumPad
                     new App();
                 });
             }
-
-            return 0;
         }
 
-        private static async Task<bool> DecideRedirection()
+        private static bool DecideRedirection()
         {
             bool isRedirect = false;
 
@@ -51,7 +50,7 @@ namespace DrumPad
                 else
                 {
                     isRedirect = true;
-                    await keyInstance.RedirectActivationToAsync(args);
+                    RedirectActivationTo(args, keyInstance);
                 }
             }
 
@@ -63,10 +62,42 @@ namespace DrumPad
             return isRedirect;
         }
 
+        [DllImport("kernel32.dll", CharSet = CharSet.Unicode)]
+        private static extern IntPtr CreateEvent(
+    IntPtr lpEventAttributes, bool bManualReset,
+    bool bInitialState, string lpName);
+
+        [DllImport("kernel32.dll")]
+        private static extern bool SetEvent(IntPtr hEvent);
+
+        [DllImport("ole32.dll")]
+        private static extern uint CoWaitForMultipleObjects(
+            uint dwFlags, uint dwMilliseconds, ulong nHandles,
+            IntPtr[] pHandles, out uint dwIndex);
+
+        private static IntPtr redirectEventHandle = IntPtr.Zero;
+
+        // Do the redirection on another thread, and use a non-blocking
+        // wait method to wait for the redirection to complete.
+        public static void RedirectActivationTo(
+            AppActivationArguments args, AppInstance keyInstance)
+        {
+            redirectEventHandle = CreateEvent(IntPtr.Zero, true, false, null);
+            Task.Run(() =>
+            {
+                keyInstance.RedirectActivationToAsync(args).AsTask().Wait();
+                SetEvent(redirectEventHandle);
+            });
+            uint CWMO_DEFAULT = 0;
+            uint INFINITE = 0xFFFFFFFF;
+            _ = CoWaitForMultipleObjects(
+               CWMO_DEFAULT, INFINITE, 1,
+               new IntPtr[] { redirectEventHandle }, out uint handleIndex);
+        }
+
         private static void OnActivated(object sender, AppActivationArguments args)
         {
             ExtendedActivationKind kind = args.Kind;
-
         }
     }
 }
