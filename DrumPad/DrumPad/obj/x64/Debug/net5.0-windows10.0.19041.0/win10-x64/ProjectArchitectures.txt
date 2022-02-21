@@ -1,1 +1,1 @@
-C:\Users\Jingweizh\Desktop\DrumPad\DrumPad\DrumPad\DrumPad.csproj;x64
+C:\Users\Jingweizh\Desktop\WinAppSDK-DrumPad\DrumPad\DrumPad\DrumPad.csproj;x64
