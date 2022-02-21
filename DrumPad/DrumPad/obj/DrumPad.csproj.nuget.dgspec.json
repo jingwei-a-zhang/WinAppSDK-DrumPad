@@ -121,6 +121,12 @@
         }
       },
       "runtimes": {
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        },
         "win10-arm64": {
           "#import": []
         },
