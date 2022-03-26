@@ -515,7 +515,6 @@ C:\Users\Jingweizh\Desktop\WinAppSDK-DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.
 C:\Users\Jingweizh\Desktop\WinAppSDK-DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 C:\Users\Jingweizh\Desktop\WinAppSDK-DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 C:\Users\Jingweizh\Desktop\WinAppSDK-DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-C:\Users\Jingweizh\Desktop\WinAppSDK-DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_5.0.1422.5710.dll
 C:\Users\Jingweizh\Desktop\WinAppSDK-DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\Jingweizh\Desktop\WinAppSDK-DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 C:\Users\Jingweizh\Desktop\WinAppSDK-DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\ucrtbase.dll
@@ -558,3 +557,4 @@ C:\Users\Jingweizh\Desktop\WinAppSDK-DrumPad\DrumPad\DrumPad\obj\x64\Debug\net5.
 C:\Users\Jingweizh\Desktop\WinAppSDK-DrumPad\DrumPad\DrumPad\obj\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Jingweizh\Desktop\WinAppSDK-DrumPad\DrumPad\DrumPad\obj\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Jingweizh\Desktop\WinAppSDK-DrumPad\DrumPad\DrumPad\obj\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\Jingweizh\Desktop\WinAppSDK-DrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_5.0.1522.11506.dll
