@@ -10,7 +10,7 @@
   <Identity Name="1c4807cb-9c63-46cb-ae5b-36afe1dc1c53" Publisher="CN=Jingweizh" Version="1.0.0.0" ProcessorArchitecture="x64" />
   <Properties>
     <DisplayName>DrumPad</DisplayName>
-    <PublisherDisplayName>Jingweizh</PublisherDisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
