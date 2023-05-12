@@ -209,17 +209,17 @@ namespace DrumPad
             return AppWindow.GetFromWindowId(myWndId);
         }
 
-        private void SwtichPresenter_CompOverlay(object sender, RoutedEventArgs e)
+        private void SwitchPresenter_CompOverlay(object sender, RoutedEventArgs e)
         {
             m_appWindow.SetPresenter(AppWindowPresenterKind.CompactOverlay);
         }
 
-        private void SwtichPresenter_OverLapped(object sender, RoutedEventArgs e)
+        private void SwitchPresenter_OverLapped(object sender, RoutedEventArgs e)
         {
             m_appWindow.SetPresenter(AppWindowPresenterKind.Overlapped);
         }
 
-        private void SwtichPresenter_Fullscreen(object sender, RoutedEventArgs e)
+        private void SwitchPresenter_Fullscreen(object sender, RoutedEventArgs e)
         {
             m_appWindow.SetPresenter(AppWindowPresenterKind.FullScreen);
         }
